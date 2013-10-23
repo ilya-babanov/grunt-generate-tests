@@ -1,7 +1,7 @@
 {
 	"name": "grunt-generate-tests",
 	"description": "Generates test html for specified view html, inject specified test libs and test sources, replaces all paths in test view relative to tests folder",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://github.com/ilya-babanov/grunt-generate-tests",
 	"author": {
 		"name": "Ilya Babanov",
