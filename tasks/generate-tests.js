@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 		options,
 		destDir;
 
-	grunt.registerMultiTask('generate-tests', 'Generates test html for specified view html, replaces all paths in view relative to tests folder', function() {
+	grunt.registerMultiTask('generateTests', 'Generates test html for specified view html, replaces all paths in view relative to tests folder', function() {
 		options = this.options();
 		destDir = path.dirname(options.dest);
 		var viewFile = grunt.file.read(options.view),

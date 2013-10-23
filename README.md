@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-generate-tests');
 ```
 
-## The "generate_tests" task
+## The "generateTests" task
 
 ### Overview
-In your project's Gruntfile, add a section named `generate_tests` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `generateTests` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  generate_tests: {
+  generateTests: {
     options: {
         view: '', // path to view html
         dest: '', // destination path for test view html
