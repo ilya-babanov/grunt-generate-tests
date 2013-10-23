@@ -21,7 +21,7 @@ module.exports = function(grunt) {
 
 		// Iterate over all specified file groups.
 		this.files.forEach(function(f) {
-			var cwd = f.cwd,
+			var cwd = f.cwd || '',
 				nodes = '';
 			f.src.forEach(function(filePath) {
 				if (!grunt.file.exists(cwd+filePath)) {
