@@ -1,6 +1,6 @@
 # grunt-generate-tests
 
-> Generates test html for specified view html, injected specified test libs and test sources, replaces all paths in test view relative to tests folder
+> Generates test html for specified view html, inject specified test libs and test sources, replaces all paths in test view relative to tests folder
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
